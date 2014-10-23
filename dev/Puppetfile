@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+forge "https://forgeapi.puppetlabs.com"
+
+# use dependencies defined in metadata.json
+
+mod 'maestrodev-maven', 	'1.2.1'
+mod 'puppetlabs-java', 		'1.1.2'
+mod 'puppetlabs-ntp', 		'3.2.1'
+
+#mod 'puppet-servicemix',
+#   :git => 'git://github.com/dbroeglin/puppet-servicemix.git'

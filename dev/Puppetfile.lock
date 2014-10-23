@@ -1,0 +1,17 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    maestrodev-maven (1.2.1)
+      maestrodev-wget (>= 1.0.0)
+    maestrodev-wget (1.5.6)
+    puppetlabs-java (1.1.2)
+      puppetlabs-stdlib (>= 2.4.0)
+    puppetlabs-ntp (3.2.1)
+      puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
+    puppetlabs-stdlib (4.3.2)
+
+DEPENDENCIES
+  maestrodev-maven (= 1.2.1)
+  puppetlabs-java (= 1.1.2)
+  puppetlabs-ntp (= 3.2.1)
+
